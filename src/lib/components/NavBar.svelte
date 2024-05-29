@@ -113,11 +113,7 @@
     </ul>
   </div>
   <div class="navbar-end">
-    <a
-      on:click={() =>
-        handleClick("https://calendly.com/louisemilevromet/30min")}
-      class="btn">Contact</a
-    >
+    <a href="mailto: louisemilevromet@gmail.com" class="btn">Nous contacter</a>
   </div>
 </div>
 
