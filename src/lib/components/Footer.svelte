@@ -2,7 +2,6 @@
   import DotBackground from "./ui/DotBackground/DotBackground.svelte";
 
   const scrollTo = (section) => {
-    console.log("ok");
     const scroll = document.getElementById(section);
     scroll.scrollIntoView({ behavior: "smooth" });
   };

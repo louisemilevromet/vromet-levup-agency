@@ -1,5 +1,13 @@
 <script>
   import BackgroundGradient from "./ui/BackgroundGradient/BackgroundGradient.svelte";
+
+  function startVideo(event) {
+    const thumbnail = event.currentTarget;
+    const iframe = thumbnail.nextElementSibling;
+    iframe.src += "&autoplay=1";
+    thumbnail.style.display = "none";
+    iframe.style.display = "block";
+  }
 </script>
 
 <section class="hero min-h-screen bg-[#06070b]" id="realisations">
@@ -10,97 +18,131 @@
     <div
       class="grid grid-cols-1 gap-8 mt-8 xl:mt-12 xl:gap-12 sm:grid-cols-2 xl:grid-cols-4 lg:grid-cols-3"
     >
-      <!-- Video 1 -->
-      <BackgroundGradient class="rounded-xl max-w-sm p-4 sm:p-10 ">
+      <!-- Video 1 with Vimeo -->
+      <BackgroundGradient class="rounded-xl max-w-sm p-4 sm:p-10">
         <div class="w-full video-container cursor-pointer">
-          <iframe
-            src="https://drive.google.com/file/d/1I9WPJeC3VzkOv-qVmSxHRjYWoyqU4q0u/preview"
-            allow="autoplay"
-          ></iframe>
+          <div style="padding:177.78% 0 0 0;position:relative;">
+            <iframe
+              src="https://player.vimeo.com/video/951654954?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+              frameborder="0"
+              allow="autoplay; fullscreen; picture-in-picture; clipboard-write"
+              style="position:absolute;top:0;left:0;width:100%;height:100%;"
+              title="2024-04-14-vromet5-v1"
+            ></iframe>
+          </div>
+          <script src="https://player.vimeo.com/api/player.js"></script>
         </div>
       </BackgroundGradient>
 
-      <!-- Video 2 -->
-      <BackgroundGradient class="rounded-xl max-w-sm p-4 sm:p-10 ">
+      <!-- Video 2 with Vimeo -->
+      <BackgroundGradient class="rounded-xl max-w-sm p-4 sm:p-10">
         <div class="w-full video-container cursor-pointer">
-          <iframe
-            src="https://drive.google.com/file/d/1zWR8XV-h3_egTbGK5y52QIoFiShV00jL/preview"
-            width="640"
-            height="480"
-            allow="autoplay"
-          ></iframe>
+          <div style="padding:177.78% 0 0 0;position:relative;">
+            <iframe
+              src="https://player.vimeo.com/video/951657071?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+              frameborder="0"
+              allow="autoplay; fullscreen; picture-in-picture; clipboard-write"
+              style="position:absolute;top:0;left:0;width:100%;height:100%;"
+              title="Vidéo 2"
+            ></iframe>
+          </div>
+          <script src="https://player.vimeo.com/api/player.js"></script>
         </div>
       </BackgroundGradient>
 
-      <!-- Video 3 -->
-      <BackgroundGradient class="rounded-xl max-w-sm p-4 sm:p-10 ">
+      <!-- Video 3 with Vimeo -->
+      <BackgroundGradient class="rounded-xl max-w-sm p-4 sm:p-10">
         <div class="w-full video-container cursor-pointer">
-          <iframe
-            src="https://drive.google.com/file/d/1x4C8GRWpQNp1RaObcxfZMvrq3fO-UO1Y/preview"
-            width="640"
-            height="480"
-            allow="autoplay"
-          ></iframe>
+          <div style="padding:177.78% 0 0 0;position:relative;">
+            <iframe
+              src="https://player.vimeo.com/video/951660844?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+              frameborder="0"
+              allow="autoplay; fullscreen; picture-in-picture; clipboard-write"
+              style="position:absolute;top:0;left:0;width:100%;height:100%;"
+              title="Vidéo 3"
+            ></iframe>
+          </div>
+          <script src="https://player.vimeo.com/api/player.js"></script>
         </div>
       </BackgroundGradient>
 
-      <!-- Video 4 -->
-      <BackgroundGradient class="rounded-xl max-w-sm p-4 sm:p-10 ">
+      <!-- Video 4 with Vimeo -->
+      <BackgroundGradient class="rounded-xl max-w-sm p-4 sm:p-10">
         <div class="w-full video-container cursor-pointer">
-          <iframe
-            src="https://drive.google.com/file/d/1MLdQF7-AUA3XrzyNHF-gMS_oD9A2JnQe/preview"
-            width="640"
-            height="480"
-            allow="autoplay"
-          ></iframe>
+          <div style="padding:177.78% 0 0 0;position:relative;">
+            <iframe
+              src="https://player.vimeo.com/video/951663151?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+              frameborder="0"
+              allow="autoplay; fullscreen; picture-in-picture; clipboard-write"
+              style="position:absolute;top:0;left:0;width:100%;height:100%;"
+              title="Vidéo 4"
+            ></iframe>
+          </div>
+          <script src="https://player.vimeo.com/api/player.js"></script>
         </div>
       </BackgroundGradient>
 
-      <!-- Video 5 -->
-      <BackgroundGradient class="rounded-xl max-w-sm p-4 sm:p-10 ">
+      <!-- Video 5 with Vimeo -->
+      <BackgroundGradient class="rounded-xl max-w-sm p-4 sm:p-10">
         <div class="w-full video-container cursor-pointer">
-          <iframe
-            src="https://drive.google.com/file/d/1gBvAq1pBj6vCtigeJa_hpO2Gy0MHm2gd/preview"
-            width="640"
-            height="480"
-            allow="autoplay"
-          ></iframe>
+          <div style="padding:177.78% 0 0 0;position:relative;">
+            <iframe
+              src="https://player.vimeo.com/video/951664100?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+              frameborder="0"
+              allow="autoplay; fullscreen; picture-in-picture; clipboard-write"
+              style="position:absolute;top:0;left:0;width:100%;height:100%;"
+              title="Vidéo 5"
+            ></iframe>
+          </div>
+          <script src="https://player.vimeo.com/api/player.js"></script>
         </div>
       </BackgroundGradient>
 
-      <!-- Video 6 -->
-      <BackgroundGradient class="rounded-xl max-w-sm p-4 sm:p-10 ">
+      <!-- Video 6 with Vimeo -->
+      <BackgroundGradient class="rounded-xl max-w-sm p-4 sm:p-10">
         <div class="w-full video-container cursor-pointer">
-          <iframe
-            src="https://drive.google.com/file/d/1e49rZsejdfJK6iiNcfvon0HI_HJHUZpR/preview"
-            width="640"
-            height="480"
-            allow="autoplay"
-          ></iframe>
+          <div style="padding:177.78% 0 0 0;position:relative;">
+            <iframe
+              src="https://player.vimeo.com/video/951666200?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+              frameborder="0"
+              allow="autoplay; fullscreen; picture-in-picture; clipboard-write"
+              style="position:absolute;top:0;left:0;width:100%;height:100%;"
+              title="2024-03-04-ben7-v1"
+            ></iframe>
+          </div>
+          <script src="https://player.vimeo.com/api/player.js"></script>
         </div>
       </BackgroundGradient>
 
-      <!-- Video 7 -->
-      <BackgroundGradient class="rounded-xl max-w-sm p-4 sm:p-10 ">
+      <!-- Video 7 with Vimeo -->
+      <BackgroundGradient class="rounded-xl max-w-sm p-4 sm:p-10">
         <div class="w-full video-container cursor-pointer">
-          <iframe
-            src="https://drive.google.com/file/d/19H9yva1PG-mNIiMevDBPM8-CnDUkZ1Zl/preview"
-            width="640"
-            height="480"
-            allow="autoplay"
-          ></iframe>
+          <div style="padding:177.78% 0 0 0;position:relative;">
+            <iframe
+              src="https://player.vimeo.com/video/951668687?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+              frameborder="0"
+              allow="autoplay; fullscreen; picture-in-picture; clipboard-write"
+              style="position:absolute;top:0;left:0;width:100%;height:100%;"
+              title="Vidéo 7"
+            ></iframe>
+          </div>
+          <script src="https://player.vimeo.com/api/player.js"></script>
         </div>
       </BackgroundGradient>
 
-      <!-- Video 8 -->
-      <BackgroundGradient class="rounded-xl max-w-sm p-4 sm:p-10 ">
+      <!-- Video 8 with Vimeo -->
+      <BackgroundGradient class="rounded-xl max-w-sm p-4 sm:p-10">
         <div class="w-full video-container cursor-pointer">
-          <iframe
-            src="https://drive.google.com/file/d/1YqznRYMlePMO658BXGEW58lG8-H1-Hz4/preview"
-            width="640"
-            height="480"
-            allow="autoplay"
-          ></iframe>
+          <div style="padding:177.78% 0 0 0;position:relative;">
+            <iframe
+              src="https://player.vimeo.com/video/951669635?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+              frameborder="0"
+              allow="autoplay; fullscreen; picture-in-picture; clipboard-write"
+              style="position:absolute;top:0;left:0;width:100%;height:100%;"
+              title="Vidéo 8"
+            ></iframe>
+          </div>
+          <script src="https://player.vimeo.com/api/player.js"></script>
         </div>
       </BackgroundGradient>
     </div>
@@ -108,18 +150,10 @@
 </section>
 
 <style>
-  /* Ajoutez ce code CSS */
-  @media screen and (max-width: 640px) {
-    .video-container {
-      max-width: 300px;
-      margin: auto;
-    }
-  }
-
   .video-container {
     position: relative;
     width: 100%;
-    padding-bottom: 177.78%; /* 16:9 ratio, 9/16 = 0.5625, 100 / 0.5625 = 177.78 */
+    padding-bottom: 177.78%; /* 9:16 ratio */
     height: 0;
     overflow: hidden;
     border-radius: 1rem;
@@ -132,11 +166,30 @@
     height: 100%;
     border: 0;
   }
-  .background-gradient {
-    background: linear-gradient(to right, #fff, #e0e0e0); /* Example gradient */
-    padding: 20px;
-    border-radius: 1rem;
-    max-width: 320px;
-    margin: 0 auto;
+  .thumbnail {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 2rem;
+  }
+  .play-button {
+    width: 80px;
+    height: 80px;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: white;
   }
 </style>

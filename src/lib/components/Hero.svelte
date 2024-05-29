@@ -13,7 +13,7 @@
   style="background-image: url('/Background.png');"
 >
   <NavBar />
-  <!-- <DotBackground /> -->
+  <DotBackground />
 
   <div class="hero-content text-center text-neutral-content">
     <div class="">
