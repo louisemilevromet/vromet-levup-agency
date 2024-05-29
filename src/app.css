@@ -1,15 +1,15 @@
 @font-face {
   font-family: "Satoshi";
-  src: url("static/fonts/Satoshi-Regular.woff2") format("woff2"),
-    url("static/fonts/Satoshi-Regular.woff") format("woff");
+  src: url("/fonts/Satoshi-Regular.woff2") format("woff2"),
+    url("/fonts/Satoshi-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Satoshi";
-  src: url("static/fonts/Satoshi-Black.woff2") format("woff2"),
-    url("static/fonts/Satoshi-Black.woff") format("woff");
+  src: url("/fonts/Satoshi-Black.woff2") format("woff2"),
+    url("/fonts/Satoshi-Black.woff") format("woff");
   font-weight: bold;
   font-style: normal;
 }
