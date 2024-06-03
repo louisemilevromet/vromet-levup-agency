@@ -140,7 +140,7 @@
         <div class="mb-8">
           <h3 class="text-2xl font-semibold text-black">Engagement Avancé</h3>
           <p class="mt-4 text-custom-black">
-            Idéal pour les entreprises en croissance et les grandes entreprises.
+            Idéal pour les entreprises en croissance et les grandes entreprises
           </p>
         </div>
         <!-- <div class="mb-8">
@@ -214,7 +214,7 @@
                 d="M5 13l4 4L19 7"
               />
             </svg>
-            <span>Photos et montages vidéo professionnels.</span>
+            <span>Photos et montages vidéo professionnels</span>
           </li>
           <li class="flex items-center">
             <svg
@@ -231,7 +231,7 @@
                 d="M5 13l4 4L19 7"
               />
             </svg>
-            <span>Gestion de la communauté : Interaction quotidienne.</span>
+            <span>Gestion de la communauté : Interaction quotidienne</span>
           </li>
           <li class="flex items-center">
             <svg
@@ -249,7 +249,7 @@
               />
             </svg>
             <span
-              >Analyse et optimisation continue des stratégies de contenu.
+              >Analyse et optimisation continue des stratégies de contenu
             </span>
           </li>
           <li class="flex items-center">
@@ -267,7 +267,7 @@
                 d="M5 13l4 4L19 7"
               />
             </svg>
-            <span>Rapports détaillés et recommandations stratégiques. </span>
+            <span>Rapports détaillés et recommandations stratégiques</span>
           </li>
           <li class="flex items-center">
             <svg
@@ -284,7 +284,7 @@
                 d="M5 13l4 4L19 7"
               />
             </svg>
-            <span>Rapports mensuels sur les performances. </span>
+            <span>Rapports mensuels sur les performances</span>
           </li>
         </ul>
         <a
@@ -309,7 +309,7 @@
           <h3 class="text-2xl font-semibold text-black">Domination Digitale</h3>
           <p class="mt-4 text-custom-black">
             Adapté aux déploiements à grande échelle et aux besoins
-            personnalisés.
+            personnalisés
           </p>
         </div>
         <!-- <div class="mb-8">
@@ -331,7 +331,7 @@
                 d="M5 13l4 4L19 7"
               />
             </svg>
-            <span>Gestion de 4+ réseaux sociaux.</span>
+            <span>Gestion de 4+ réseaux sociaux</span>
           </li>
           <li class="flex items-center">
             <svg
@@ -366,7 +366,7 @@
               />
             </svg>
             <span
-              >Campagnes publicitaires continues avec ajustements en temps réel.</span
+              >Campagnes publicitaires continues avec ajustements en temps réel</span
             >
           </li>
           <li class="flex items-center">
@@ -403,7 +403,7 @@
               />
             </svg>
             <span
-              >Gestion proactive de la communauté : Interaction constante.</span
+              >Gestion proactive de la communauté : Interaction constante</span
             >
           </li>
           <li class="flex items-center">
@@ -423,7 +423,7 @@
             </svg>
             <span
               >Stratégie de contenu avancée avec intégration de SEO et contenu
-              écrit pour blogs.</span
+              écrit pour blogs</span
             >
           </li>
           <li class="flex items-center">
@@ -443,7 +443,7 @@
             </svg>
             <span
               >Sessions stratégiques mensuelles avec analyse approfondie des
-              données.</span
+              données</span
             >
           </li>
         </ul>
