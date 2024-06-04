@@ -19,8 +19,8 @@
     <div class="">
       <h1 class="mb-8 text-clampHero font-bold text-white">LEVup Agency.</h1>
       <p class="mb-8 text-custom-grey">
-        Transformez vos clics en clients : Boostez votre visibilité en maximisez
-        vos profits !
+        Transformez vos clics en clients : Boostez votre visibilité en
+        maximisant vos profits !
       </p>
       <div id="mouse-scroll" on:click={() => handleClick("apropos")}>
         <div class="mouse">

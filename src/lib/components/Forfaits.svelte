@@ -14,7 +14,9 @@
       class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3 mt-8 xl:mt-12"
     >
       <!-- Basic Plan -->
-      <div class="bg-white rounded-lg shadow-lg p-6 relative overflow-hidden">
+      <div
+        class="bg-white rounded-lg shadow-lg p-6 relative overflow-hidden h-fit"
+      >
         <div class="absolute top-0 right-0 m-4">
           <span
             class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-purple-100 text-purple-800"
@@ -48,6 +50,23 @@
                 d="M5 13l4 4L19 7"
               />
             </svg>
+            <span>4 vidéos courtes par mois (1 par semaine)</span>
+          </li>
+          <li class="flex items-center">
+            <svg
+              class="h-6 w-6 text-green-400 mr-2"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M5 13l4 4L19 7"
+              />
+            </svg>
             <span>Gestion de 2 réseaux sociaux</span>
           </li>
           <li class="flex items-center">
@@ -65,58 +84,7 @@
                 d="M5 13l4 4L19 7"
               />
             </svg>
-            <span>Publication : 8 posts par mois</span>
-          </li>
-          <li class="flex items-center">
-            <svg
-              class="h-6 w-6 text-green-400 mr-2"
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M5 13l4 4L19 7"
-              />
-            </svg>
-            <span>1 campagne publicitaire par mois</span>
-          </li>
-          <li class="flex items-center">
-            <svg
-              class="h-6 w-6 text-green-400 mr-2"
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M5 13l4 4L19 7"
-              />
-            </svg>
-            <span>Photos et petits montages vidéo simples</span>
-          </li>
-          <li class="flex items-center">
-            <svg
-              class="h-6 w-6 text-green-400 mr-2"
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M5 13l4 4L19 7"
-              />
-            </svg>
-            <span>Rapports mensuels sur les performances</span>
+            <span>1 campagne publicitaire</span>
           </li>
         </ul>
         <a
@@ -129,7 +97,9 @@
       </div>
 
       <!-- Pro Plan -->
-      <div class="bg-white rounded-lg shadow-lg p-6 relative overflow-hidden">
+      <div
+        class="bg-white rounded-lg shadow-lg p-6 relative overflow-hidden h-fit"
+      >
         <div class="absolute top-0 right-0 m-4">
           <span
             class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-green-100 text-green-800"
@@ -163,6 +133,23 @@
                 d="M5 13l4 4L19 7"
               />
             </svg>
+            <span>8 vidéos courtes par mois (2 par semaine)</span>
+          </li>
+          <li class="flex items-center">
+            <svg
+              class="h-6 w-6 text-green-400 mr-2"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M5 13l4 4L19 7"
+              />
+            </svg>
             <span>Gestion de 3 réseaux sociaux</span>
           </li>
           <li class="flex items-center">
@@ -180,111 +167,7 @@
                 d="M5 13l4 4L19 7"
               />
             </svg>
-            <span>Publication : 16 posts par mois</span>
-          </li>
-          <li class="flex items-center">
-            <svg
-              class="h-6 w-6 text-green-400 mr-2"
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M5 13l4 4L19 7"
-              />
-            </svg>
-            <span>2 campagnes publicitaires par mois</span>
-          </li>
-          <li class="flex items-center">
-            <svg
-              class="h-6 w-6 text-green-400 mr-2"
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M5 13l4 4L19 7"
-              />
-            </svg>
-            <span>Photos et montages vidéo professionnels</span>
-          </li>
-          <li class="flex items-center">
-            <svg
-              class="h-6 w-6 text-green-400 mr-2"
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M5 13l4 4L19 7"
-              />
-            </svg>
-            <span>Gestion de la communauté : Interaction quotidienne</span>
-          </li>
-          <li class="flex items-center">
-            <svg
-              class="h-6 w-6 text-green-400 mr-2"
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M5 13l4 4L19 7"
-              />
-            </svg>
-            <span
-              >Analyse et optimisation continue des stratégies de contenu
-            </span>
-          </li>
-          <li class="flex items-center">
-            <svg
-              class="h-6 w-6 text-green-400 mr-2"
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M5 13l4 4L19 7"
-              />
-            </svg>
-            <span>Rapports détaillés et recommandations stratégiques</span>
-          </li>
-          <li class="flex items-center">
-            <svg
-              class="h-6 w-6 text-green-400 mr-2"
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M5 13l4 4L19 7"
-              />
-            </svg>
-            <span>Rapports mensuels sur les performances</span>
+            <span>2 campagnes publicitaires</span>
           </li>
         </ul>
         <a
@@ -297,7 +180,9 @@
       </div>
 
       <!-- Enterprise Plan -->
-      <div class="bg-white rounded-lg shadow-lg p-6 relative overflow-hidden">
+      <div
+        class="bg-white rounded-lg shadow-lg p-6 relative overflow-hidden h-fit"
+      >
         <div class="absolute top-0 right-0 m-4">
           <span
             class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-yellow-100 text-yellow-800"
@@ -331,7 +216,7 @@
                 d="M5 13l4 4L19 7"
               />
             </svg>
-            <span>Gestion de 4+ réseaux sociaux</span>
+            <span>12 vidéos courtes par mois (3 par semaine)</span>
           </li>
           <li class="flex items-center">
             <svg
@@ -348,7 +233,7 @@
                 d="M5 13l4 4L19 7"
               />
             </svg>
-            <span>Publication : 20+ posts par mois</span>
+            <span>Gestion de 4 réseaux sociaux</span>
           </li>
           <li class="flex items-center">
             <svg
@@ -365,27 +250,7 @@
                 d="M5 13l4 4L19 7"
               />
             </svg>
-            <span
-              >Campagnes publicitaires continues avec ajustements en temps réel</span
-            >
-          </li>
-          <li class="flex items-center">
-            <svg
-              class="h-6 w-6 text-green-400 mr-2"
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M5 13l4 4L19 7"
-              />
-            </svg>
-            <span>Vidéos promotionnelles, interviews, événements en direct</span
-            >
+            <span>3 campagnes publicitaires</span>
           </li>
           <li class="flex items-center">
             <svg
@@ -403,47 +268,7 @@
               />
             </svg>
             <span
-              >Gestion proactive de la communauté : Interaction constante</span
-            >
-          </li>
-          <li class="flex items-center">
-            <svg
-              class="h-6 w-6 text-green-400 mr-2"
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M5 13l4 4L19 7"
-              />
-            </svg>
-            <span
-              >Stratégie de contenu avancée avec intégration de SEO et contenu
-              écrit pour blogs</span
-            >
-          </li>
-          <li class="flex items-center">
-            <svg
-              class="h-6 w-6 text-green-400 mr-2"
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M5 13l4 4L19 7"
-              />
-            </svg>
-            <span
-              >Sessions stratégiques mensuelles avec analyse approfondie des
-              données</span
+              >Analyse détaillée et optimisation continue des stratégies</span
             >
           </li>
         </ul>
