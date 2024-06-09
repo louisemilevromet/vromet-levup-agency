@@ -34,7 +34,7 @@
           </p>
         </div>
       </div>
-      <!-- <div class="w-full px-4 md:w-1/2 lg:w-1/3">
+      <div class="w-full px-4 md:w-1/2 lg:w-1/3">
         <div
           class="mb-9 rounded-[20px] bg-white dark:bg-dark-2 p-10 shadow-2 hover:shadow-lg md:px-7 xl:px-10"
         >
@@ -61,7 +61,7 @@
             créatives.
           </p>
         </div>
-      </div> -->
+      </div>
       <div class="w-full px-4 md:w-1/2 lg:w-1/3">
         <div
           class="mb-9 rounded-[20px] bg-white dark:bg-dark-2 p-10 shadow-2 hover:shadow-lg md:px-7 xl:px-10"
