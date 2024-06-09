@@ -56,8 +56,8 @@
         </p>
         <h3 class="text-white font-bold text-4xl pb-10">À propos de LEVup</h3>
         <p class="pb-10 text-custom-grey">
-          LEVup est une agence de marketing spécialisée dans la création de
-          contenu vidéo pour les PME et entrepreneurs. Nous aidons nos clients à
+          LEVup est une agence de contenu spécialisée dans la création de vidéo
+          short form pour les PME et entrepreneurs. Nous aidons nos clients à
           augmenter leur chiffre d'affaires grâce à des vidéos de haute qualité
           et des campagnes publicitaires stratégiques.
         </p>
